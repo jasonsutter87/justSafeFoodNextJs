@@ -1,3 +1,3 @@
 [build]
-  command = "npm run build"
-  publish = "public"  # Update this to point to the .next directory
+  command = "npm install && npm run build"
+  publish = "public"
