@@ -1,5 +1,5 @@
 [build]
   command = "npm install && npm run build"
-  publish = "public/.next"
+  publish = "public"
 
   
