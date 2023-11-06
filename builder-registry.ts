@@ -1,7 +1,7 @@
 "use client";
 import { Builder } from "@builder.io/react";
 import Counter from "./components/Counter/Counter";
-import HeroSection from "./components/Home/Hero";
+import Section from "./components/Section";
 
 Builder.registerComponent(Counter, {
   name: "Counter",
@@ -13,6 +13,8 @@ Builder.registerComponent(Counter, {
   ],
 });
 
-Builder.registerComponent(HeroSection, {
-  name: "HeroSection",
+
+
+Builder.registerComponent(Section, {
+  name: "Section",
 });
